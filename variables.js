@@ -13,9 +13,9 @@ const nullVariable = null; // null
 // Export these variables so they can be used in another file
 
 module.exports= {
-    strVariable
-    boolVariable
-    undefinedVariable
+    strVariable,
+    boolVariable,
+    undefinedVariable,
     nullVariable
 }
 
