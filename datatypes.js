@@ -41,5 +41,12 @@ let firstName = "Jack", lastName = "Falky", maritalStatus = "married", country =
 
 // Declare two variables myAge and yourAge and assign them initial values and log to the browser console
 
+let myAge = 60;
+let yourAge = 34;
+
+// Log the variables to the browser console
+
+console.log("My Age is: " + myAge);
+console.log("Your Age is: " + yourAge);
 
 
