@@ -1,4 +1,11 @@
 const app = require('express')();
+const countries = require('./countries');
+const webTechs = require('./web_techs.js');
+
+
+console.log("Countries:", countries);
+
+console.log("Web Technologies:", webTechs);
 
 app.get('/', (req, res) => {
   res.setHeader('Content-Type', 'text/html');

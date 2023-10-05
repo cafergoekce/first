@@ -1,4 +1,4 @@
-// 1-)
+ /* // 1-)
 
 let challenge = '30 Days Of Javascript';
 
@@ -85,6 +85,29 @@ let trimmedChg = challenge.trim();
 console.log(trimmedChg);      // this will print '30 Days of Javascript'
 
 // 21-)
+*/
+
+let challenge = `30 Days of Javascript`;
+console.log(challenge.startsWith('30'))
+
+console.log(challenge.endsWith('script'))
+
+console.log(challenge.match('a'))
+
+// concat
+
+let firstString = `30 Days of`;
+let secondString = `Javascript`;
+let mergedString = firstString.concat(secondString);
+console.log(mergedString)
+
+// repeat()
+
+let string = `push`;
+console.log(string.repeat(10))
+
+
+console.log(`The quote 'There is no exercise better for the heart than reaching down and lifting people up.' by John Holmes teaches us to help one another.`)
 
 
 
@@ -92,11 +115,68 @@ console.log(trimmedChg);      // this will print '30 Days of Javascript'
 
 
 
+//trim
 
 
 
 
+/*
+ const ogrenciler = [
+    {
+      ad: "Ahmet",
+      yas: 20,
+      sinif: "11-A"
+    },
+    {
+      ad: "Ayşe",
+      yas: 19,
+      sinif: "10-B"
+    },
+    {
+      ad: "Mehmet",
+      yas: 21,
+      sinif: "12-C"
+    },
+    {
+      ad: "Zeynep",
+      yas: 18,
+      sinif: "9-D"
+    },
+    {
+      ad: "Fatma",
+      yas: 22,
+      sinif: "13-A"
+    }
+  ];
+
+console.log(typeof ogrenciler)
+
+if(typeof ogrenciler === "numbers"){
+    const isim = "Habibullah";
+    console.log("Merhaba"+isim+" Nasılsın");
+}
+
+const isim = "Habibullah";
+console.log("Merhaba "+isim+" Nasılsın");
+console.log(`MErhaba ${isim} nasılsın?`)
+
+let say = 1;
+let say2 = null;
+say2  += say; 
+
+console.log(say2)
 
 
+let isRaining = true
 
+isRaining ? console.log('You need a rain coat.') : console.log('No need for a rain coat.')
 
+if(isRaining === true){
+    console.log('You need a rain coat.')
+} else{
+    console.log('No need for a rain coat.')
+}
+
+let date = new Date();
+
+console.log(date.getDay()) */
